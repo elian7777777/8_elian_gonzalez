@@ -40,9 +40,14 @@
 </table>
 <br>
 <table>
-<td rowspan="3">y</td>
-<td colspan="3">la</td>
-
-
-
-</table>
+<table border="1px">
+    <tr>    
+        <td rowspan="5">y</td>
+        <td colspan="3">la</td>
+    <tr></tr>
+    <tr>
+    <td rowspan="2">luz</td>
+    <td colspan="3">al nacer descubrió</td>
+</tr>
+    <td>un bonito</td>
+    <td>mundo de color</td>

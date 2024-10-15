@@ -1,0 +1,48 @@
+<html>
+<table border="1px">
+    <tr>    
+        <td colspan="3">La</td>
+    <tr>
+        <td>camiseta</td>
+        <td>es</td>
+        <td>verde</td>
+</table>
+<br>
+<table border="1px">
+    <tr>    
+        <td>Había</td>
+        <td colspan="3">una vez un barquito</td>
+        <tr>
+        <td rowspan="2">chiquitito</td>
+        <td>que no sabia</td>
+        <td>que no sabia</td>
+        <td>que no</td>
+        </tr>
+        <td>sabia</td>
+        <td>navegar</td>
+        <td>...</td>
+</table>
+<br>
+<table border="1px">
+    <tr>    
+        <td rowspan="5">Érase</td>
+        <td rowspan="3">una</td>
+        <td>vez</td>
+    <tr></tr>
+    <td>un</td>
+    <tr>
+    <td rowspan="2">planeta</td>
+    <td>triste</td>
+    </tr>
+    <td>y oscuro</td>
+
+        <tr></tr>
+</table>
+<br>
+<table>
+<td rowspan="3">y</td>
+<td colspan="3">la</td>
+
+
+
+</table>

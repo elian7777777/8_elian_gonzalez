@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <h1>Practica 2.4.1</h1>
+    <title>Elián González</title>
+    <style>
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .form_button {
+            display: block;
+            margin-top: 15px;
+            background-color: rgb(79, 69, 96)
+            color white;
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <form action="maito:elian.gonzalez@educa.madrid.org" method="post">
+        <fieldset>
+            <legend>Personajes</legend>
+            <label>Superheroe favorito</label>
+            <input list="Superheroes" name="Superheroes">
+            <datalist id="Superheroes">
+                <option value="Deadpool"></option>
+                <option value="Lobezno"></option>
+                <option value="Spiderman"></option>
+            </datalist>
+            <label>Color</label>
+            <input type="Color" name="Color">
+        </fieldset>
+        <fieldset>
+            <legend>Datos</legend>
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre">
+            <label for="Telefono">Telefono</label>
+            <input type="number" name="Telefono">
+        </fieldset>
+        <input type="submit">
+    </form>
+</body>
+</html>

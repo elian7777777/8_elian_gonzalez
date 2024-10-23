@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <h1>Practica 2.4.2</h1>
+    <title>Elián González</title>
+    <style>
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .form_button {
+            display: block;
+            margin-top: 15px;
+            background-color: rgb(79, 69, 96)
+            color white;
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <form action="maito:elian.gonzalez@educa.madrid.org" method="post">
+        <fieldset>
+            <legend>Personajes</legend>
+            <label>Superheroe favorito</label>
+            <input list="Superheroes" name="Superheroes">
+            <datalist id="Superheroes">
+                <option value="Deadpool"></option>
+                <option value="Lobezno"></option>
+                <option value="Spiderman"></option>
+            </datalist>
+            <label>Color</label>
+            <input type="Color" name="Color">
+        </fieldset>
+        <fieldset>
+            <legend>Datos</legend>
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre">
+            <label for="Telefono">Telefono</label>
+            <input type="number" name="Telefono">
+            <label for="Fecha">Fecha</label>
+            <input type="data">
+            <label for="Contraseña">Contraseña</label>
+            <input type="password">
+        </fieldset>
+        <fieldset>
+            <legend>Seleciona tu forma de contacto favorita</legend>
+
+            <div style="display: flex;gap: 8px;">
+                <input type="radio" id="drone" name="correo" value="correo" />
+                <label for="drone">correo</label>
+                <input type="radio" id="drone" name="Carta" value="Carta" />
+                <label for="drone">Carta</label>
+                <input type="radio" id="drone" name="contacto" value="contacto" />
+                <label for="drone">Contacto</label>
+        </fieldset>
+        <fieldset>
+            <legend>Selecciona tus asignaturas favoritas</legend>
+            <div style="display: flex;gap: 8px;">
+                <input type="checkbox" id="asignaturas" name="AplicacionesWeb" value="AplicacionesWeb" />
+                <label for="AplicacionesWeb"> aplicaciones web</label>
+            </div>
+            <div style="display: flex;gap: 8px;">
+            <input type="checkbox" id="asignaturas" name="SeguridadInformatica" value="SeguridadInformatica" />
+            <label for="asignaturas">Seguridad Informatica</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Hora</legend>
+            <input type="time" id="Hora" name="Hora" value="Hora" />
+        </fieldset>
+        <fieldset>
+            <legend>mes</legend>
+            <input type="month" id="mes" name="mes" value="mes" />
+        </fieldset>
+        <fieldset>
+            <legend>Email</legend>
+            <input type="email" id="email" name="email" value="email" />
+        </fieldset>
+        <fieldset>
+            <legend>semana</legend>
+            <input type="week" id="semana" name="semana" value="semana" />
+        </fieldset>
+            <legend>Dia, Fecha, Hora</legend>
+            <input type="datetime-local">
+        </fieldset>
+        <input type="submit">
+    </form>
+</body>
+</html>

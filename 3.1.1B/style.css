@@ -1,0 +1,34 @@
+h1{
+color: aquamarine;
+}
+h2{
+color: purple 
+}
+h3{
+font-style: italic;
+}
+#CodigoCSS{
+color: green;
+
+}
+#hay{
+font-weight: bold;
+}
+code {
+color: blue;
+font-weight: bold;
+}
+#style {
+font-weight: bold;
+}
+.parrafo{
+color: gray;
+text-transform: uppercase;
+}
+#hoja{
+color: red;
+font-weight: bold;
+}
+span{
+font-weight: bold;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tablas y listas - Elian Gonzalez</title>
+    <link rel="stylesheet" href="style.css">
+<table>
+    <h1>Practica 3.1.2</h1>
+    <caption>Horario 2º SMR 2024-2025</caption>
+        <tr>
+            <td colspan="6" style="text-align: center;">Horario</td>
+        </tr>
+        <tr>
+            <th>Horas</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tr>
+            <td>8:30</td>
+            <td rowspan="2" class="seginf"> SEG INF</td>
+            <td rowspan="2" class="servred">SERV RED</td>
+            <td rowspan="2" class="servred">SERV RED</td>
+            <td class=ingles>INGLES</td>
+            <td class="seginf">SEG INF</td>
+        </tr>
+        <tr>
+            <td>9:25</td>
+            <td class="seginf"> SEG INF</td>
+            <td class="servred">SERV RED</td>
+        </tr>
+        <tr>
+            <td>10:20</td>
+            <td class="empresa">EMPRESA</td>
+            <td class="sor">SOR</td>
+            <td class="ingles">INGLES</td>
+            <td class="servred">SERV RED</td>
+            <td class="sor">SOR</td>
+        </tr>
+        <tr>
+            <td>11:15-11:40</td>
+            <td colspan="5" style="text-align: center;">Patio</td>
+        </tr>
+        <tr>
+            <td>12:35</td>
+            <td class="sor">SOR</td>
+            <td class="sor">SOR</td>
+            <td class="empresa">EMPRESA</td>
+            <td rowspan="2" class="apweb">
+                AP WEB
+                <br>
+            <td class="sor">SOR</td>
+        </tr>
+        <tr>
+            <td>13:30</td>
+            <td class="apweb">
+                AP WEB
+                <br>
+            </td>
+            <td rowspan="2" class="apweb">
+                AP WEB
+                <br>
+            <td rowspan="2" class="sor">SOR</td>
+            <td rowspan="2" class="sor">SERV RED</td>
+        </tr>
+        <tr>
+            <td>14:25</td>
+            <td class="servred">SERV RED</td>
+            <td class="sor">SOR</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -10,13 +10,13 @@ caption{
     color: white;
     border-radius: 50px;
     padding: 15;
-    background-color: violet;
+    background-color: rgb(238, 130, 157);
     border: 20px;
 }
 
 th{
     padding: 10px;
-    background-color: aqua;
+    background-color: rgb(27, 112, 168);
     border-radius: 15px;
 
 }
@@ -28,7 +28,7 @@ td{
 }
 
 td.patio:hover {
-    background-color: pink;
+    background-color: purple;
 }
 
 table{
@@ -40,11 +40,36 @@ table{
 }
 
 td:nth-child(1){
-    background-color: blue;
+    background-color: rgba(74, 7, 138, 0.87);
     color: whitesmoke;
     border-radius: 15px;
 }
 
 th:nth-child(1) {
     background-color: white;
+    color: white;
+}
+
+.empresa:hover{
+    background-color: rgb(175, 211, 15);
+}
+
+.seginf:hover{
+    background-color: rgb(179, 31, 31);
+}
+
+.sor:hover{
+    background-color: rgb(16, 126, 16);
+}
+
+.servred:hover{
+    background-color: rgb(147, 7, 160);
+}
+
+.apweb:hover{
+    background-color: rgb(17, 190, 190);
+}
+
+.ingles:hover{
+    background-color: rgb(88, 7, 168);
 }

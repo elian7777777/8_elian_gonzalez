@@ -48,13 +48,13 @@ footer {
     padding: 20px 15px;
 }
 
-#Destrezas ul > li:before {
+#Destrezas ul>li:before {
     content: "►";
     padding-right: 0.5em;
     color: cadetblue;
 }
 
-#Destrezas .languages ul > li:before {
+#Destrezas .languages ul>li:before {
     content: "►";
     padding-right: 0em;
 }
@@ -74,17 +74,22 @@ h4 {
 .caja {
     background-color: rgb(137, 168, 51);
     margin: 5px;
-    padding: 5px;
+    padding: 10px 20px;
     border: 1px solid rgb(137, 168, 51);
     text-align: center;
+    width: 120px;
+    box-sizing: border-box;
 }
 
 .contenedor {
     display: flex;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(137, 168, 51);
-    justify-content: space-between;
     flex-direction: row;
-    padding: 10px;
+    padding: 15px;
+    gap: 10px;
     border-radius: 5px;
+    witdh: 80%;
+    margin: 0 auto;
 }

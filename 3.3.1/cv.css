@@ -17,7 +17,7 @@ header {
     color: rgb(0, 0, 0);
     text-align: center;
     padding: auto;
-    background-color: rgb(158, 204, 31);
+    background-color: rgb(137, 168, 51);
     background-color: radial-gradient(circle, (greenyellow)0% cadetblue 100%);
 }
 
@@ -70,4 +70,22 @@ h3 {
 
 h4 {
     color: rgb(113, 135, 51)
+}
+
+.caja {
+    background-color: cadetblue;
+    margin: 5px;
+    padding: 5px;
+    border: 1px;
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    text-align: center;
+    border: 1px;
+    display: flex;
+    background-color: gray;
+    justify-content: space-between;
+    flex-direction: row;
 }

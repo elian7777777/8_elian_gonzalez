@@ -1,29 +1,28 @@
 body {
-    font-size: 10;
+    font-size: 10px;
     margin: 0;
-    font-family: Monteserrat, 'Courier New'
+    font-family: Montserrat, 'Courier New';
+    background-color: rgb(225, 208, 208);
 }
 
 header img {
-    border-radius: 200px;
+    border-radius: 50%;
 }
 
 header h1 {
-    text-shadow: 3 px 3px 0px;
     color: rgb(0, 0, 0);
 }
 
 header {
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: auto;
-    background-color: rgb(158, 204, 31);
-    background-color: radial-gradient(circle, (greenyellow)0% cadetblue 100%);
+    padding: 20px;
+    background: radial-gradient(circle, greenyellow 0%, cadetblue 100%);
 }
 
 nav {
     justify-content: space-between;
-    background-color: cadetblue;
+    background-color: rgb(137, 168, 51);
     display: flex;
     grid-area: nav;
 }
@@ -39,23 +38,23 @@ section:not(:last-child) {
 .knowledge {
     justify-content: space-between;
     display: grid;
-    grid-template-columns: 50% 50%
+    grid-template-columns: 50% 50%;
 }
 
 footer {
-    background-color: cadetblue;
+    background: linear-gradient(to top, cadetblue, rgb(137, 168, 51));
     min-height: 100px;
     text-align: end;
     padding: 20px 15px;
 }
 
-#Destrezas ul>li:before {
+#Destrezas ul > li:before {
     content: "►";
     padding-right: 0.5em;
     color: cadetblue;
 }
 
-#Destrezas .languages ul>li:before {
+#Destrezas .languages ul > li:before {
     content: "►";
     padding-right: 0em;
 }
@@ -65,9 +64,9 @@ footer {
 }
 
 h3 {
-    color: rgb(0, 0, 0)
+    color: cadetblue
 }
 
 h4 {
-    color: rgb(113, 135, 51)
+    color: rgb(113, 135, 51);
 }

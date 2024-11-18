@@ -22,14 +22,34 @@ header {
 }
 
 nav {
-    justify-content: space-between;
     background-color: rgb(137, 168, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 nav ul{
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex
+    display: flex;
+    gap: 60px;
+}
+
+nav ul li{
+    margin: 0;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+    transition: color 0.2s;
+}
+
+nav ul li a:hover{
+    color: rgb(23, 140, 99)
 }
 
 section {
@@ -95,6 +115,6 @@ h4 {
     padding: 15px;
     gap: 10px;
     border-radius: 5px;
-    witdh: 80%;
+    width: 80%;
     margin: 0 auto;
 }

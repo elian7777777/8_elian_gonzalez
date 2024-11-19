@@ -1,0 +1,112 @@
+body {
+    font-size: 16px;
+    margin: 0;
+    font-family: Montserrat, 'Courier New';
+    background-color: rgb(225, 208, 208);
+}
+
+header img {
+    border-radius: 50%;
+    width: 180px;
+}
+
+header h1 {
+    color: rgb(0, 0, 0);
+}
+
+header {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    background: radial-gradient(circle, greenyellow 0%, cadetblue 100%);
+}
+
+nav {
+    background-color: rgb(137, 168, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+    transition: color 0.2s;
+}
+
+nav ul li a:hover{
+    color: rgb(23, 140, 99)
+}
+
+section {
+    padding-left: 10px;
+}
+
+section:not(:last-child) {
+    border-bottom: 1px solid rgb(156, 154, 154);
+}
+
+.knowledge {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+footer {
+    background: linear-gradient(to top, cadetblue, rgb(137, 168, 51));
+    min-height: 100px;
+    text-align: end;
+    padding: 20px 15px;
+}
+
+#Destrezas ul>li:before {
+    content: "►";
+    padding-right: 0.5em;
+    color: cadetblue;
+}
+
+#Destrezas .languages ul>li:before {
+    content: "►";
+    padding-right: 0em;
+}
+
+#Destrezas ul {
+    list-style: none;
+}
+
+h3 {
+    color: cadetblue
+}
+
+h4 {
+    color: rgb(113, 135, 51);
+}
+
+.caja {
+    background-color: rgb(137, 168, 51);
+    margin: 5px;
+    padding: 10px 20px;
+    border: 1px solid rgb(137, 168, 51);
+    text-align: center;
+    width: 120px;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(137, 168, 51);
+    flex-direction: row;
+    padding: 15px;
+    gap: 10px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+}
